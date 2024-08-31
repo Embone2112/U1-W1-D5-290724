@@ -1,0 +1,136 @@
+body{
+    max-width: 500px;
+    margin-inline: auto;
+    display: block;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerlogo{
+    display: block;
+    text-align: center; 
+}
+.logo{
+    width: 150px;
+    padding: 1rem 0;
+    background-color: black;
+    padding-inline: 175px;
+}
+.containerbanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #fff;
+    opacity: 0,9;
+    z-index: -1;
+}
+.banner{
+    width: 500px;
+    height: 350px;
+}
+.contenitore-testo{
+    color: #34aac9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    margin-inline: 60px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.contenitore-testos{
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+        height: 200px;           
+        text-align: center;   
+        padding: 20px;      
+        margin-inline: 40px;
+        font-size: 25px;
+        line-height: 1.6;
+        margin-bottom: 0px;       
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .bottone{
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        padding: 10px 20px;
+        font-size: 16px;               
+        background-color: #FF8C00;     
+        color: white;                  
+        border: none;                  
+        border-radius: 5px;   
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .sezione{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .sezione h2 {
+        color: #00a4e6;
+        margin-bottom: 10px;
+    }
+
+    .sezione p {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .sezione-arancione {
+        background-color: #FF6347;
+        color: white;
+    }
+
+    .sezione-arancione h2 {
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .sezione-arancione p {
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .foto{
+        width: 500px;
+        background-color: #f0f0f0;
+    }
+
+    .contact-section {
+        background-color: #00a4e6;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .contact-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .contact-info a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #ccc;
+    }
